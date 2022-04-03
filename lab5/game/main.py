@@ -29,7 +29,7 @@ if __name__ == '__main__':
     worker.start()
 
     QueueManager.register('get_queue', callable=lambda: queue)
-    manager = QueueManager(address=('localhost', 50000), authkey=b'your_secret_key')
+    manager = QueueManager(address=('localhost', 50000), authkey=b'passwd')
 
     run = True
     clock = pygame.time.Clock()

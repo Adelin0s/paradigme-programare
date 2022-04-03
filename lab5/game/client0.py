@@ -1,164 +1,75 @@
+import multiprocessing as mp
+
+from window import *
+from multiprocessing import Lock
 from multiprocessing.managers import BaseManager
-
-
-class QueueManager(BaseManager):
-    pass
-
-import pygame
-import numpy as np
-import sys
-
-WIDTH = 600
-HEIGHT = 600
-LINE_WIDTH = 15
-
-CIRCLE_RADIUS = 60
-CIRCLE_WIDTH = 15
-
-CROSS_WIDTH = 25
-CROSS_SPACE = 55
-
-RED = (255, 0, 0)
-BG_COLOR = (23, 123, 234)
-
-LINE_COLOR = (23, 12, 123)
-CIRCLE_COLOR = (239, 231, 200)
-CROSS_COLOR = (67, 67, 67)
-
-window = pygame.display.set_mode((WIDTH, HEIGHT))
-window.fill(BG_COLOR)
-pygame.display.set_caption("X & 0")
-
-class Window:
-    def __init__(self):
-        self.player = 1
-        self.board = np.zeros((3, 3))
-
-    def draw_lines(self):
-        pygame.draw.line(window, LINE_COLOR, (0, 200), (600, 200), LINE_WIDTH)
-        pygame.draw.line(window, LINE_COLOR, (0, 400), (600, 400), LINE_WIDTH)
-        pygame.draw.line(window, LINE_COLOR, (200, 0), (200, 600), LINE_WIDTH)
-        pygame.draw.line(window, LINE_COLOR, (400, 0), (400, 600), LINE_WIDTH)
-
-    def draw_figure(self):
-        for px in range(3):
-            for py in range(3):
-                if self.board[px][py] == 1:
-                    pygame.draw.circle(window, CIRCLE_COLOR, ((py * 200 + 100), (px * 200 + 100)), CIRCLE_RADIUS, CIRCLE_WIDTH)
-                elif self.board[px][py] == 2:
-                    pygame.draw.line(window, CROSS_COLOR, (py * 200 + CROSS_SPACE, px * 200 + 200 - CROSS_SPACE), (py * 200 + 200 - CROSS_SPACE, px * 200 + CROSS_SPACE), CROSS_WIDTH)
-                    pygame.draw.line(window, CROSS_COLOR, (py * 200 + CROSS_SPACE, px * 200 + CROSS_SPACE), (py * 200 + 200 - CROSS_SPACE, px * 200 + 200 - CROSS_SPACE), CROSS_WIDTH)
-
-    def mark_square(self, px, py, player):
-        self.board[py, px] = player
-
-    def is_available(self, px, py):
-        return self.board[py][px] == 0
-
-    def is_board_full(self):
-        for px in range(3):
-            for py in range(3):
-                if self.is_available(px, py):
-                    return False
-        return True
-
-    def check_win(self, player):
-        # vertical win check
-        for col in range(3):
-            if self.board[0][col] == player and self.board[1][col] == player and self.board[2][col] == player:
-                self.draw_vertical_winning_line(col, player)
-                return True
-
-        # horizontal win check
-        for row in range(3):
-            if self.board[row][0] == player and self.board[row][1] == player and self.board[row][2] == player:
-                self.draw_horizontal_winning_line(row, player)
-                return True
-
-        # asc diagonal win check
-        if self.board[2][0] == player and self.board[1][1] == player and self.board[0][2] == player:
-            self.draw_asc_diagonal(player)
-            return True
-
-        # desc diagonal win chek
-        if self.board[0][0] == player and self.board[1][1] == player and self.board[2][2] == player:
-            self.draw_desc_diagonal(player)
-            return True
-
-        return False
-
-    def draw_vertical_winning_line(self, col, player):
-        posX = col * 200 + 200 // 2
-
-        if player == 1:
-            color = CIRCLE_COLOR
-        elif player == 2:
-            color = CROSS_COLOR
-
-        pygame.draw.line(window, color, (posX, 15), (posX, HEIGHT - 15), LINE_WIDTH)
-
-    def draw_horizontal_winning_line(self, row, player):
-        posY = row * 200 + 200 // 2
-
-        if player == 1:
-            color = CIRCLE_COLOR
-        elif player == 2:
-            color = CROSS_COLOR
-
-        pygame.draw.line(window, color, (15, posY), (WIDTH - 15, posY), LINE_WIDTH)
-
-    def draw_asc_diagonal(self, player):
-        if player == 1:
-            color = CIRCLE_COLOR
-        elif player == 2:
-            color = CROSS_COLOR
-
-        pygame.draw.line(window, color, (15, HEIGHT - 15), (WIDTH - 15, 15), LINE_WIDTH)
-
-    def draw_desc_diagonal(self, player):
-        if player == 1:
-            color = CIRCLE_COLOR
-        elif player == 2:
-            color = CROSS_COLOR
-
-        pygame.draw.line(window, color, (15, 15), (WIDTH - 15, HEIGHT - 15), LINE_WIDTH)
-
-    def update(self):
-        for event in pygame.event.get():
-            keys = pygame.key.get_pressed()
-            if event.type == pygame.QUIT or keys[pygame.K_ESCAPE]:
-                run = False
-                pygame.quit()
-                sys.exit()
-            if event.type == pygame.MOUSEBUTTONUP:
-                mouseX = event.pos[0]
-                mouseY = event.pos[1]
-
-                pmouseX = int(mouseX // 200)
-                pmouseY = int(mouseY // 200)
-
-                if self.is_available(pmouseX, pmouseY):
-                    if self.player == 1:
-                        self.mark_square(pmouseX, pmouseY, self.player)
-                        self.check_win(self.player)
-                        self.player = 2
-                    elif self.player == 2:
-                        self.mark_square(pmouseX, pmouseY, self.player)
-                        self.check_win(self.player)
-                        self.player = 1
-
-                    self.draw_figure()
-
-                    print(self.board)
-
-            pygame.display.update()
+from database import *
 
 
 if __name__ == '__main__':
-    QueueManager.register('get_queue')
-    manager = QueueManager(address=('localhost', 50000), authkey=b'your_secret_key')
-    manager.connect()
-    queue = manager.get_queue()
-    result = queue.get()
-    result.append(2 + 5)
-    queue.put(result)
+    board_queue = mp.Queue()
+    status_queue = mp.Queue()
+
+    BaseManager.register('get_queue', callable=lambda: board_queue)
+    BaseManager.register('status_queue', callable=lambda: status_queue)
+    manager = BaseManager(address=('localhost', 50000), authkey=b'passwd')
+
+    board_queue.put([0] * 9)
+    # 1 - client1
+    # 2 - client2
+    status_queue.put([1, True])
+
+    run = True
+    clock = pygame.time.Clock()
+    window = Window(board_queue)
+    window.draw_lines()
+
+    manager.start()
+
+    update_draw_flag = True
+
+    player_1_name = input("Type player1 name:")
+
+    player1 = Player(id=None,
+                     player_name=player_1_name,
+                     score=0)
+    database_manager = DatabaseManager()
+    database_manager.insert(player1)
+
+    '''
+        return_type :   0) run (true/false)
+                        1) switch_turn (bassically, if it must block to move)
+                        2) player_win (0-no win 1-player1 win 2-player2 win)
+                        
+        status_type:    0) player_turn (player 1/2) 
+                        1) runnable (true/false) - if a player has already finished
+    '''
+
+    player_win = 0
+    while run and not player_win:
+        status = status_queue.get()
+        if not status[1]:
+            run = False
+        else:
+            status_queue.put([status[0], True])
+            if status[0] == 1:
+                pygame.event.clear()
+                if update_draw_flag: # run one time per move
+                    window.draw_figure()
+                    update_draw_flag = False
+                clock.tick(60)
+                run, switch_turn, player_win = window.update(status[0])
+                if switch_turn:
+                    status_queue.get()
+                    status[0] = 2
+                    status_queue.put(status)
+                    update_draw_flag = True
+
+    if status[0]:
+        status_queue.get()
+        status_queue.put([0, False])
+
+    if player_win == 1:
+        database_manager.update_score(player1)
+
+
