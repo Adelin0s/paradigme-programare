@@ -1,0 +1,12 @@
+FILE_A
+rqwer
+weter
+t
+ew
+rw;
+l
+rqjwef
+qnlefdw
+dwqw
+dw
+d
