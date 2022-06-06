@@ -1,0 +1,7 @@
+total 20K
+drwxr-xr-x 4 adelinos adelinos 4.0K May 14 15:12 .
+drwxr-xr-x 4 adelinos adelinos 4.0K May 14 13:35 ..
+drwxr-xr-x 3 adelinos adelinos 4.0K May 14 14:57 .idea
+-rw-r--r-- 1 adelinos adelinos  219 May 14 15:12 main.py
+-rw-r--r-- 1 adelinos adelinos    0 May 14 15:12 named_pipe
+drwxr-xr-x 4 adelinos adelinos 4.0K May 14 13:35 venv

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c454423-c472-491d-bf9e-d84f2b4ebd5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/py306.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_2/named_pipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/tema_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab11/tema_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/p1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p1/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/kotlin/input.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p3/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/src/main/kotlin/org/example/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/src/test/kotlin/org/example/HelloTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/target/classes/META-INF/untitled.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled/target/classes/org/example/HelloKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/src/main/kotlin/org/example/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/src/main/resources/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p1/untitled1/src/test/kotlin/org/example/HelloTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/p4/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab4/work/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab5.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/AbstractFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/AbstractFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/CEOHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/CEOHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/EliteFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/EliteFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/ExecutiveHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/ExecutiveHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/FactoryProducer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/FactoryProducer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/Handler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/Handler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/HappyWorkerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/HappyWorkerFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/HappyWorkerHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/HappyWorkerHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/ManagerHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_1/untitled/src/main/kotlin/ManagerHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/Thread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_2/untitled1/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/tema_3/untitled/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/src/main/kotlin/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_3/untitled0/untitled0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/a.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/b.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/c.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/e.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/tema_4/untitled/src/main/kotlin/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29O4U9Xp9xNyyuc9MvRHd3A11ik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adelinos/Work/PP/lab12/p2&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="p2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c454423-c472-491d-bf9e-d84f2b4ebd5b" name="Changes" comment="" />
+      <created>1652970811080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652970811080</updated>
+    </task>
+    <servers />
+  </component>
+</project>

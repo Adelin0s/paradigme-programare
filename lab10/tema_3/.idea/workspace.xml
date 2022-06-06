@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c5592ac-f4aa-4188-a3d4-1fc052510079" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Problema 3/Problema3(Java Threads)/.idea/Problema3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/AbstractFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/CEOHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/EliteFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/ExecutiveHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/FactoryProducer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/Handler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/HappyWorkerFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/HappyWorkerHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_1/untitled/src/main/kotlin/ManagerHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_2/untitled1/src/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_2/untitled1/src/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_2/untitled1/src/Thread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_2/untitled1/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema_2/untitled1/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/7.3.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab6/tema_1/BMP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab6/tema_1/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab6/tema_1/xml_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab7/tema_1/src/main/kotlin/HistoryLogRecord.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28qLXw5RfoZjRwLbloBtw5Nl8x3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/adelinos/Work/PP/lab10/tema_3"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c5592ac-f4aa-4188-a3d4-1fc052510079" name="Changes" comment="" />
+      <created>1651939211455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651939211455</updated>
+    </task>
+    <servers />
+  </component>
+</project>
